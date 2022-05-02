@@ -4,10 +4,14 @@
   "description": "",
   "main": "events.js",
   "scripts": {
+    "start": "node hello.js",
+    "dev": "nodemon race.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Pavel Chlebek",
   "license": "ISC",
-  "type": "module"
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }

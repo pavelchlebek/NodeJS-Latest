@@ -1,3 +1,5 @@
+const internals = require("./internals")
+
 const mission = process.argv[2]
 
 if (mission === "learn") {
@@ -5,3 +7,5 @@ if (mission === "learn") {
 } else {
   console.log(`Is ${mission} really more fun?`)
 }
+
+internals.sayHello()
